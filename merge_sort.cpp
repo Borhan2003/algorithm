@@ -42,7 +42,7 @@ int main()
 {
     clock_t before = clock();
 
-    ifstream in("100000.txt");
+    ifstream in("400000.txt");
     vector<int> numbers;
     int num;
     while (in >> num)
